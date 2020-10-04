@@ -6,11 +6,6 @@ body {
 
 header {
     background-color: #63B3ED;
-    color: white;
-}
-
-.header-text {
-    color: #ffffff;
 }
 
 #header-header {
@@ -39,12 +34,6 @@ a {
 .social-archive-header {
     color: #48BB78;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-footer {
-    background-color: #2C5282;
-    text-align: center;
-    color: #ffffff;
 }
 
 hr {
@@ -90,6 +79,7 @@ hr {
     padding: 20px;
     grid-area: header; 
     background-color: #63B3ED;
+    color: #ffffff;
 }
 
 .blog-post { 
@@ -117,6 +107,8 @@ section {
     padding-left: 20;
     grid-area: footer; 
     background-color: #2C5282;
+    text-align: center;
+    color: #ffffff;
 }
 
 .flexbox-container {
@@ -138,6 +130,7 @@ section {
 }
 
 .flexbox-item-3 {
+    padding-top: 20px;
     align-items: center;
     justify-content: center;
     text-align: center;
